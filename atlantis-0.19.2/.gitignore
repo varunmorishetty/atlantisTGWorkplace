@@ -1,0 +1,19 @@
+.idea
+./atlantis
+*.iml
+.vscode
+atlantis.db
+output
+.DS_Store
+.cover
+.terraform/
+node_modules/
+**/.vuepress/dist
+helm/test-values.yaml
+*.swp
+golangci-lint
+atlantis
+.devcontainer
+
+# gitreleaser
+dist/
