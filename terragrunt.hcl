@@ -39,7 +39,6 @@ EOF
 remote_state {
   backend = "s3"
   config = {
-    encrypt        = true
     bucket         = local.s3_state_bucket_name
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = local.provider_region
