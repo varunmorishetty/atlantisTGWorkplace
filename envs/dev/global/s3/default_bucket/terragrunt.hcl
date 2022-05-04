@@ -1,5 +1,5 @@
 terraform {
-  source = "../../../../../modules/s"
+  source = "../../../../../modules/s3"
 }
 
 include {
